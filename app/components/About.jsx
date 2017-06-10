@@ -2,9 +2,20 @@ var React = require('react');
 
 var About = (props) => {
 	return (
-		<div>
-		<h3>About</h3>
-		<p>Welcome to About page </p>
+			<div className="columns medium6 large4 small-centered">
+			<h1 className="text-center">About</h1>
+			<p>Weather App built with React</p>
+			<ul>
+				<li>
+					<a href="http://humzaiqbal.com">View other Projects</a>
+				</li>
+				<li>
+					<a href="https://github.com/humzaiq/ReactWeather-">View Sourcecode</a>
+				</li>
+				<li>
+					<a href="http://openweathermap.com">Open Weather Map</a>
+				</li>
+			</ul>
 		</div>
 	)
 };
